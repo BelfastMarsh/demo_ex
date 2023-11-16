@@ -5,7 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class DemoExController {
     @RequestMapping("/")
     public String hello1() {
-        return "Hello";
+
+        return "index";
     }
 
 }
